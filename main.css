@@ -9,7 +9,7 @@ body {
 }
 
 #product-overview {
-    background: #ff1b68;
+    background: url('freedom.jpg');
     /* New things */
     width: 100%;
     height: 528px;
@@ -38,11 +38,13 @@ Objective 3
 more distance from the links on the right
 anchor tags have a green text and not underlined.
 
+Objective 4
+
 */
 .main-header {
-width: 100%;
-background-color: #2ddf5c;
-padding: 8px 16px;
+    width: 100%;
+    background-color: #2ddf5c;
+    padding: 8px 16px;
 }
 
 .main-header > div {
@@ -110,5 +112,3 @@ padding: 8px 16px;
     background: white;
     border: none;
 } 
-
-
