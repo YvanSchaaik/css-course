@@ -57,29 +57,21 @@ body {
 .main-nav__item a:active {
     color: white;
     border-bottom: 5px solid white;
-    
 }
 
-.main_nav__item--cta a {
+.main-nav__item--cta a {
     color: white;
     background: #ff1b68;
     padding: 8px 16px;
     border-radius: 8px;
 }
 
-.main_nav__item--cta a:hover,
-.main_nav__item--cta a:active {
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
     color: #ff1b68;
     background: white;
     border: none;
 } 
-
-/* .main-nav__item a {
-    text-decoration: none;
-    color: #0e4f1f;
-    font-weight: bold;
-    padding: 3px 0;
-} */
 
 .main-footer {
     background-color: black;
