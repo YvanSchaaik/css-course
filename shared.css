@@ -12,7 +12,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #2ddf5c;
+    background: #2ddf5c;
     padding: 8px 16px;
     z-index: 1;
 }
@@ -26,7 +26,15 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
+    height: 22px;
+    /* width: 20px; */
+    display: inline-block;
+}
+
+.main-header__brand img {
+    height: 100%;
+    /* width: 100%; */
 }
 
 .main-nav {
@@ -40,8 +48,6 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
-
 }
 
 .main-nav__item {
@@ -49,13 +55,12 @@ body {
     margin: 0 16px;
 }
 
-.main-nav__link {
+.main-nav__item a {
     text-decoration: none;
     color: #0e4f1f;
     font-weight: bold;
     padding: 3px 0;
 }
-
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
@@ -75,10 +80,10 @@ body {
     color: #ff1b68;
     background: white;
     border: none;
-} 
+}
 
 .main-footer {
-    background-color: black;
+    background: black;
     padding: 32px;
     margin-top: 48px;
 }
@@ -93,7 +98,6 @@ body {
 .main-footer__link {
     display: inline-block;
     margin: 0 16px;
-
 }
 
 .main-footer__link a {
@@ -107,7 +111,7 @@ body {
 }
 
 .button {
-    background-color: #0e4f1f;
+    background: #0e4f1f;
     color: white;
     font: inherit;
     border: 1.5px solid #0e4f1f;
@@ -119,10 +123,10 @@ body {
 
 .button:hover,
 .button:active {
-    background-color: white;
+    background: white;
     color: #0e4f1f;
 }
 
-.button:focus{
+.button:focus {
     outline: none;
 }
