@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 
-html {
-    /* height: 100%; */
-    /* font-size: 75%; */
-}
+/* html {
+    height: 100%; 
+    font-size: 75%;
+} */
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -30,7 +30,7 @@ body {
     top: 0;
     left: 0;
     background: #2ddf5c;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1rem;
     z-index: 1;
 }
 
