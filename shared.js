@@ -25,23 +25,25 @@ for(let i = 0; i < selectPlanButtons.length; i++) {
 //Select the button and let the modal screen closable
 // Add event listener to the No button
 
+function closeModal() {
+    // backdrop.style.display = 'none'
+    // modal.style.display = 'none'
+
+    if(modal){
+        modal.classList.remove('open')
+    }
+    backdrop.classList.remove('open')
+
+}
 backdrop.addEventListener('click', function(){
     // mobileNav.style.display = 'none'
     mobileNav.classList.remove('open')
     closeModal()
 })
 
-modal.addEventListener('click', closeModal)
-
-function closeModal() {
-    // backdrop.style.display = 'none'
-    // modal.style.display = 'none'
-    modal.classList.remove('open')
-    backdrop.classList.remove('open')
-
+if(modalNoButton) {
+    modalNoButton.addEventListener("click", closeModal)
 }
-
-
 
 toggleButton.addEventListener('click', function () {
     // mobileNav.style.display = 'block'
