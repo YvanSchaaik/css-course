@@ -1,5 +1,6 @@
 main {
     padding-top: 2rem;
+
 }
 
 .background {
@@ -87,4 +88,29 @@ main {
 
 #premium .package__subtitle {
     color: #bbb;
+}
+
+@media (min-width: 40rem) {
+
+    main {
+      max-width: 1500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    .package {
+        border-left: 4px solid #0e4f1f;
+    }
+
+    #free {
+        border-right: 4px solid #0e4f1f; 
+    }
+
+    #free:hover,
+    #free:active {
+        border-right-color: #ff5454;
+    }
 }
