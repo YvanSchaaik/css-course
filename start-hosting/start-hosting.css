@@ -23,6 +23,14 @@ main {
     width: 100%;
 }
 
+.signup-form input.invalid,
+.signup-form select.invalid,
+.signup-form :invalid {
+    border: 1px solid red;
+    background: #faacac;
+}
+
+
 .signup-form input[id*="terms"],
 .signup-form input[id*="terms"] + label {
     display: inline-block;
@@ -59,6 +67,12 @@ main {
     border: #0e4f1f;
 }
 
+.signup-form input.invalid,
+.signup-form select.invalid,
+.signup-form :invalid {
+    border: 1px solid red !important;
+    background: #faacac;
+}
 
 .signup-form button[type="submit"] {
     display: block;
